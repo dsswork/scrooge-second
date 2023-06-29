@@ -1,6 +1,6 @@
 <?php
 
-define('ROOT',$_SERVER['HTTP_X_FORWARDED_PROTO'].'://'.$_SERVER['HTTP_HOST']);
+define('ROOT','http://'.$_SERVER['HTTP_HOST']);
 
 require('system/boot.php');
 require('helpers/functions.php');
