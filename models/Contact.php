@@ -19,7 +19,7 @@ class Contact
 
         pdo()->exec($sql);
 
-        $sql = "SELECT * FROM pools ORDER BY id DESC LIMIT 1";
+        $sql = "SELECT * FROM contacts ORDER BY id DESC LIMIT 1";
 
         $contact = pdo()->query($sql)->fetch();
 
